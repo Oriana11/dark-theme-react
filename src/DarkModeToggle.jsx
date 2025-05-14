@@ -22,9 +22,14 @@ function DarkModeToggle() {
   return (
     <button 
       onClick={toggleDarkMode} 
-      className="p-2 cursor-pointer dark:bg-gray-900 dark:text-white bg-gray-200 text-gray-800 rounded"
+      className="p-3 cursor-pointer dark:bg-gray-800 dark:text-yellow-200 bg-blue-100 text-orange-500 rounded-full hover:scale-110 transform transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl"
     >
-      {isDarkMode ? '🌞 Light Mode' : '🌙 Dark Mode'}
+      <span className="inline-block transition-transform duration-300 ease-in-out hover:rotate-45">
+        {isDarkMode ? '🌞' : '🌙'}
+      </span>
+      <span className="ml-2 text-sm font-medium">
+        {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+      </span>
     </button>
   );
 }

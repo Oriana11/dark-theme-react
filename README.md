@@ -1,12 +1,47 @@
-# React + Vite
+# Dark Theme React Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![dark mode project](https://github.com/user-attachments/assets/bf67701f-c067-401e-ab5a-2536ecde7236)
 
-Currently, two official plugins are available:
+A modern React application showcasing dynamic dark/light theme switching with smooth transitions and animated decorative elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- Dynamic dark/light mode toggle
+- Local storage persistence for theme preference
+- Smooth color transition animations
+- Floating decorative elements with parallax effect
+- Responsive design with Tailwind CSS
+- Modern React hooks implementation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies
+
+- React 19
+- Vite 6
+- Tailwind CSS 4
+- ESLint 9
+- Modern JavaScript (ES6+)
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the development server:
+```bash
+npm run dev
+```
+
+## 🎯 Implementation Details
+
+The project demonstrates:
+- React hooks (useState, useEffect) for state management
+- CSS animations for floating elements
+- Tailwind CSS for styling and dark mode implementation
+- Local storage integration for persistent theme settings
+- Modern ESLint configuration for code quality
+
+## 📝 License
+
+MIT License

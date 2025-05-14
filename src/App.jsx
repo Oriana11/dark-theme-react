@@ -31,7 +31,7 @@ function App() {
           <DarkModeToggle />
         </div>
         <h1 className="text-4xl font-bold mb-4 dark:text-yellow-200 text-blue-600 transition-colors duration-300">
-          Welcome to Dark mode
+          Welcome to <span className="dark:inline hidden">Dark</span><span className="dark:hidden inline">Light</span> mode
         </h1>
         <p className="text-lg dark:text-gray-300 text-gray-600 transition-colors duration-300">
           This is an app to demonstrate dark mode with some sparkle ✨
